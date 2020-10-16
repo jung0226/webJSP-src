@@ -8,6 +8,15 @@ public class FreeboardVO {
 	private int hit;
 	private String writedate;
 	private String ip;
+	
+	
+	public FreeboardVO() {}
+	public FreeboardVO(int no, String subject, String userid) {
+		this.no=no;
+		this.subject=subject;
+		this.userid=userid;
+	}
+	
 	public int getNo() {
 		return no;
 	}
